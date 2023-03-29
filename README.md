@@ -1,2 +1,2 @@
 # multifingered-hand-robot
-multifingered hand robot controlled using flex sensors
+multifingered hand robot using flex sensors with PID control
