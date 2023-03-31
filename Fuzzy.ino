@@ -68,9 +68,6 @@ float Pde[] = {0,2,2};
 
 float fNde, fZde, fPde;
 
-
-//#define min(a,b)
-
 float rule1_1,rule1_2,rule1_3,rule1_4,rule1_5,rule1_6,rule1_7,rule1_8,rule1_9;
 float rule2_1,rule2_2,rule2_3,rule2_4,rule2_5,rule2_6,rule2_7,rule2_8,rule2_9;
 float rule3_1,rule3_2,rule3_3,rule3_4,rule3_5,rule3_6,rule3_7,rule3_8,rule3_9;
@@ -366,6 +363,7 @@ void loop() {
 
   // FUZZY LOGIC control
 
+  //
   
   jempol.write(final0);
   act1.writeMicroseconds(final1);
